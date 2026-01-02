@@ -1,0 +1,372 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1189pt" height="640pt" viewBox="0.00 0.00 1189.00 640.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 635.6)">
+<title>AI_Resume_Matcher</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-635.6 1185,-635.6 1185,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_frontend</title>
+<path fill="white" stroke="lightblue" d="M853,-288.8C853,-288.8 1161,-288.8 1161,-288.8 1167,-288.8 1173,-294.8 1173,-300.8 1173,-300.8 1173,-378.4 1173,-378.4 1173,-384.4 1167,-390.4 1161,-390.4 1161,-390.4 853,-390.4 853,-390.4 847,-390.4 841,-384.4 841,-378.4 841,-378.4 841,-300.8 841,-300.8 841,-294.8 847,-288.8 853,-288.8"/>
+<text xml:space="preserve" text-anchor="middle" x="1007" y="-373.8" font-family="Times,serif" font-size="14.00">🎨 Frontend Layer (Jinja2 Templates)</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_api</title>
+<path fill="white" stroke="lightyellow" d="M488,-146.4C488,-146.4 595,-146.4 595,-146.4 601,-146.4 607,-152.4 607,-158.4 607,-158.4 607,-382.4 607,-382.4 607,-388.4 601,-394.4 595,-394.4 595,-394.4 488,-394.4 488,-394.4 482,-394.4 476,-388.4 476,-382.4 476,-382.4 476,-158.4 476,-158.4 476,-152.4 482,-146.4 488,-146.4"/>
+<text xml:space="preserve" text-anchor="middle" x="541.5" y="-377.8" font-family="Times,serif" font-size="14.00">🔌 FastAPI Backend</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_processing</title>
+<path fill="white" stroke="lightpink" d="M244,-284.8C244,-284.8 400,-284.8 400,-284.8 406,-284.8 412,-290.8 412,-296.8 412,-296.8 412,-611.6 412,-611.6 412,-617.6 406,-623.6 400,-623.6 400,-623.6 244,-623.6 244,-623.6 238,-623.6 232,-617.6 232,-611.6 232,-611.6 232,-296.8 232,-296.8 232,-290.8 238,-284.8 244,-284.8"/>
+<text xml:space="preserve" text-anchor="middle" x="322" y="-607" font-family="Times,serif" font-size="14.00">⚙️ Data Processing Pipeline</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_matchers</title>
+<path fill="white" stroke="lightgreen" d="M20,-146.4C20,-146.4 456,-146.4 456,-146.4 462,-146.4 468,-152.4 468,-158.4 468,-158.4 468,-244 468,-244 468,-250 462,-256 456,-256 456,-256 20,-256 20,-256 14,-256 8,-250 8,-244 8,-244 8,-158.4 8,-158.4 8,-152.4 14,-146.4 20,-146.4"/>
+<text xml:space="preserve" text-anchor="middle" x="238" y="-239.4" font-family="Times,serif" font-size="14.00">🧠 Matching Engines &amp; Algorithms</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_external</title>
+<path fill="white" stroke="lightsalmon" d="M66,-8C66,-8 388,-8 388,-8 394,-8 400,-14 400,-20 400,-20 400,-105.6 400,-105.6 400,-111.6 394,-117.6 388,-117.6 388,-117.6 66,-117.6 66,-117.6 60,-117.6 54,-111.6 54,-105.6 54,-105.6 54,-20 54,-20 54,-14 60,-8 66,-8"/>
+<text xml:space="preserve" text-anchor="middle" x="227" y="-101" font-family="Times,serif" font-size="14.00">☁️ External Services &amp; Libraries</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_storage</title>
+<path fill="white" stroke="lightcyan" d="M420,-8C420,-8 598,-8 598,-8 604,-8 610,-14 610,-20 610,-20 610,-105.6 610,-105.6 610,-111.6 604,-117.6 598,-117.6 598,-117.6 420,-117.6 420,-117.6 414,-117.6 408,-111.6 408,-105.6 408,-105.6 408,-20 408,-20 408,-14 414,-8 420,-8"/>
+<text xml:space="preserve" text-anchor="middle" x="509" y="-101" font-family="Times,serif" font-size="14.00">💾 Storage &amp; Data Layer</text>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_config</title>
+<path fill="white" stroke="lightgrey" d="M627,-284.8C627,-284.8 821,-284.8 821,-284.8 827,-284.8 833,-290.8 833,-296.8 833,-296.8 833,-382.4 833,-382.4 833,-388.4 827,-394.4 821,-394.4 821,-394.4 627,-394.4 627,-394.4 621,-394.4 615,-388.4 615,-382.4 615,-382.4 615,-296.8 615,-296.8 615,-290.8 621,-284.8 627,-284.8"/>
+<text xml:space="preserve" text-anchor="middle" x="724" y="-377.8" font-family="Times,serif" font-size="14.00">⚙️ Configuration</text>
+</g>
+<!-- index_html -->
+<g id="node1" class="node">
+<title>index_html</title>
+<path fill="#e3f2fd" stroke="black" d="M926.69,-332.8C926.69,-332.8 861.31,-332.8 861.31,-332.8 855.31,-332.8 849.31,-326.8 849.31,-320.8 849.31,-320.8 849.31,-308.8 849.31,-308.8 849.31,-302.8 855.31,-296.8 861.31,-296.8 861.31,-296.8 926.69,-296.8 926.69,-296.8 932.69,-296.8 938.69,-302.8 938.69,-308.8 938.69,-308.8 938.69,-320.8 938.69,-320.8 938.69,-326.8 932.69,-332.8 926.69,-332.8"/>
+<text xml:space="preserve" text-anchor="middle" x="894" y="-317.8" font-family="Arial" font-size="10.00">index.html</text>
+<text xml:space="preserve" text-anchor="middle" x="894" y="-305.8" font-family="Arial" font-size="10.00">Upload Interface</text>
+</g>
+<!-- routes -->
+<g id="node6" class="node">
+<title>routes</title>
+<path fill="#fff9c4" stroke="black" d="M587.29,-336.8C587.29,-336.8 534.71,-336.8 534.71,-336.8 528.71,-336.8 522.71,-330.8 522.71,-324.8 522.71,-324.8 522.71,-304.8 522.71,-304.8 522.71,-298.8 528.71,-292.8 534.71,-292.8 534.71,-292.8 587.29,-292.8 587.29,-292.8 593.29,-292.8 599.29,-298.8 599.29,-304.8 599.29,-304.8 599.29,-324.8 599.29,-324.8 599.29,-330.8 593.29,-336.8 587.29,-336.8"/>
+<text xml:space="preserve" text-anchor="middle" x="561" y="-323.8" font-family="Arial" font-size="10.00">HTTP Routes</text>
+<text xml:space="preserve" text-anchor="middle" x="561" y="-311.8" font-family="Arial" font-size="10.00">GET / POST</text>
+<text xml:space="preserve" text-anchor="middle" x="561" y="-299.8" font-family="Arial" font-size="10.00">WebSocket</text>
+</g>
+<!-- index_html&#45;&gt;routes -->
+<g id="edge3" class="edge">
+<title>index_html-&gt;routes</title>
+<path fill="none" stroke="blue" d="M886,-333.2C877.01,-351.28 860.53,-377.8 837,-389.43 791.98,-411.7 655.31,-413.08 611,-389.43 594.18,-380.46 582.03,-363.04 573.91,-347.29"/>
+<polygon fill="blue" stroke="blue" points="577.26,-346.18 569.81,-338.65 570.94,-349.18 577.26,-346.18"/>
+<text xml:space="preserve" text-anchor="middle" x="724" y="-405.1" font-family="Arial" font-size="9.00">Submit</text>
+</g>
+<!-- extract_html -->
+<g id="node2" class="node">
+<title>extract_html</title>
+<path fill="#e3f2fd" stroke="black" d="M1029.46,-332.8C1029.46,-332.8 968.54,-332.8 968.54,-332.8 962.54,-332.8 956.54,-326.8 956.54,-320.8 956.54,-320.8 956.54,-308.8 956.54,-308.8 956.54,-302.8 962.54,-296.8 968.54,-296.8 968.54,-296.8 1029.46,-296.8 1029.46,-296.8 1035.46,-296.8 1041.46,-302.8 1041.46,-308.8 1041.46,-308.8 1041.46,-320.8 1041.46,-320.8 1041.46,-326.8 1035.46,-332.8 1029.46,-332.8"/>
+<text xml:space="preserve" text-anchor="middle" x="999" y="-317.8" font-family="Arial" font-size="10.00">extract.html</text>
+<text xml:space="preserve" text-anchor="middle" x="999" y="-305.8" font-family="Arial" font-size="10.00">Results Display</text>
+</g>
+<!-- main_py -->
+<g id="node5" class="node">
+<title>main_py</title>
+<path fill="#fff9c4" stroke="black" d="M586.74,-198.4C586.74,-198.4 525.26,-198.4 525.26,-198.4 519.26,-198.4 513.26,-192.4 513.26,-186.4 513.26,-186.4 513.26,-166.4 513.26,-166.4 513.26,-160.4 519.26,-154.4 525.26,-154.4 525.26,-154.4 586.74,-154.4 586.74,-154.4 592.74,-154.4 598.74,-160.4 598.74,-166.4 598.74,-166.4 598.74,-186.4 598.74,-186.4 598.74,-192.4 592.74,-198.4 586.74,-198.4"/>
+<text xml:space="preserve" text-anchor="middle" x="556" y="-185.4" font-family="Arial" font-size="10.00">main.py</text>
+<text xml:space="preserve" text-anchor="middle" x="556" y="-173.4" font-family="Arial" font-size="10.00">FastAPI App</text>
+<text xml:space="preserve" text-anchor="middle" x="556" y="-161.4" font-family="Arial" font-size="10.00">Route Handlers</text>
+</g>
+<!-- extract_html&#45;&gt;main_py -->
+<g id="edge4" class="edge">
+<title>extract_html-&gt;main_py</title>
+<path fill="none" stroke="blue" d="M971.97,-296.36C964.44,-292.08 956.1,-287.86 948,-284.8 927.61,-277.1 921.15,-280 899.98,-274.8 796.63,-249.44 677.42,-214.36 609.95,-193.96"/>
+<polygon fill="blue" stroke="blue" points="611.21,-190.68 600.63,-191.13 609.18,-197.38 611.21,-190.68"/>
+<text xml:space="preserve" text-anchor="middle" x="930.99" y="-266.7" font-family="Arial" font-size="9.00">Display Results</text>
+</g>
+<!-- download_html -->
+<g id="node3" class="node">
+<title>download_html</title>
+<path fill="#e3f2fd" stroke="black" d="M1153.02,-332.8C1153.02,-332.8 1070.98,-332.8 1070.98,-332.8 1064.98,-332.8 1058.98,-326.8 1058.98,-320.8 1058.98,-320.8 1058.98,-308.8 1058.98,-308.8 1058.98,-302.8 1064.98,-296.8 1070.98,-296.8 1070.98,-296.8 1153.02,-296.8 1153.02,-296.8 1159.02,-296.8 1165.02,-302.8 1165.02,-308.8 1165.02,-308.8 1165.02,-320.8 1165.02,-320.8 1165.02,-326.8 1159.02,-332.8 1153.02,-332.8"/>
+<text xml:space="preserve" text-anchor="middle" x="1112" y="-317.8" font-family="Arial" font-size="10.00">download_form.html</text>
+<text xml:space="preserve" text-anchor="middle" x="1112" y="-305.8" font-family="Arial" font-size="10.00">Download Manager</text>
+</g>
+<!-- results -->
+<g id="node18" class="node">
+<title>results</title>
+<path fill="#b2dfdb" stroke="black" d="M480.02,-60C480.02,-60 427.98,-60 427.98,-60 421.98,-60 415.98,-54 415.98,-48 415.98,-48 415.98,-28 415.98,-28 415.98,-22 421.98,-16 427.98,-16 427.98,-16 480.02,-16 480.02,-16 486.02,-16 492.02,-22 492.02,-28 492.02,-28 492.02,-48 492.02,-48 492.02,-54 486.02,-60 480.02,-60"/>
+<text xml:space="preserve" text-anchor="middle" x="454" y="-47" font-family="Arial" font-size="10.00">Results Data</text>
+<text xml:space="preserve" text-anchor="middle" x="454" y="-35" font-family="Arial" font-size="10.00">Scores</text>
+<text xml:space="preserve" text-anchor="middle" x="454" y="-23" font-family="Arial" font-size="10.00">Matching Info</text>
+</g>
+<!-- download_html&#45;&gt;results -->
+<g id="edge5" class="edge">
+<title>download_html-&gt;results</title>
+<path fill="none" stroke="purple" d="M1103.5,-296.31C1085.08,-260.62 1037.7,-179.95 971,-146.4 968.08,-144.93 503.79,-119.3 501,-117.6 483.84,-107.16 472.17,-87.88 464.75,-71.03"/>
+<polygon fill="purple" stroke="purple" points="468.03,-69.8 461.04,-61.83 461.54,-72.42 468.03,-69.8"/>
+<text xml:space="preserve" text-anchor="middle" x="1098.83" y="-173.7" font-family="Arial" font-size="9.00">Download</text>
+</g>
+<!-- user -->
+<g id="node4" class="node">
+<title>user</title>
+<path fill="#ffcdd2" stroke="black" d="M961,-471.2C961,-471.2 931,-471.2 931,-471.2 925,-471.2 919,-465.2 919,-459.2 919,-459.2 919,-447.2 919,-447.2 919,-441.2 925,-435.2 931,-435.2 931,-435.2 961,-435.2 961,-435.2 967,-435.2 973,-441.2 973,-447.2 973,-447.2 973,-459.2 973,-459.2 973,-465.2 967,-471.2 961,-471.2"/>
+<text xml:space="preserve" text-anchor="middle" x="946" y="-456.2" font-family="Arial" font-size="10.00">👤 User</text>
+<text xml:space="preserve" text-anchor="middle" x="946" y="-444.2" font-family="Arial" font-size="10.00">Browser</text>
+</g>
+<!-- user&#45;&gt;index_html -->
+<g id="edge1" class="edge">
+<title>user-&gt;index_html</title>
+<path fill="none" stroke="red" stroke-width="2" d="M921.38,-434.78C914.63,-428.74 908.05,-421.4 903.97,-413.2 893.55,-392.31 891.44,-365.81 891.73,-345.72"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="895.21,-346.15 892.11,-336.02 888.22,-345.87 895.21,-346.15"/>
+<text xml:space="preserve" text-anchor="middle" x="938.48" y="-405.1" font-family="Arial" font-size="9.00" fill="red">Upload Resumes</text>
+</g>
+<!-- user&#45;&gt;extract_html -->
+<g id="edge2" class="edge">
+<title>user-&gt;extract_html</title>
+<path fill="none" stroke="green" stroke-width="2" d="M960.01,-434.73C964.67,-428.26 969.54,-420.67 973,-413.2 983.03,-391.52 989.75,-365.27 993.85,-345.48"/>
+<polygon fill="green" stroke="green" stroke-width="2" points="997.23,-346.41 995.7,-335.93 990.36,-345.08 997.23,-346.41"/>
+<text xml:space="preserve" text-anchor="middle" x="1003.3" y="-405.1" font-family="Arial" font-size="9.00" fill="green">View Results</text>
+</g>
+<!-- parser -->
+<g id="node7" class="node">
+<title>parser</title>
+<path fill="#f3e5f5" stroke="black" d="M389.3,-566C389.3,-566 316.7,-566 316.7,-566 310.7,-566 304.7,-560 304.7,-554 304.7,-554 304.7,-534 304.7,-534 304.7,-528 310.7,-522 316.7,-522 316.7,-522 389.3,-522 389.3,-522 395.3,-522 401.3,-528 401.3,-534 401.3,-534 401.3,-554 401.3,-554 401.3,-560 395.3,-566 389.3,-566"/>
+<text xml:space="preserve" text-anchor="middle" x="353" y="-553" font-family="Arial" font-size="10.00">resume_parser.py</text>
+<text xml:space="preserve" text-anchor="middle" x="353" y="-541" font-family="Arial" font-size="10.00">PDF Extraction</text>
+<text xml:space="preserve" text-anchor="middle" x="353" y="-529" font-family="Arial" font-size="10.00">Text Mining</text>
+</g>
+<!-- main_py&#45;&gt;parser -->
+<g id="edge7" class="edge">
+<title>main_py-&gt;parser</title>
+<path fill="none" stroke="blue" stroke-width="2" d="M547.66,-198.83C526.11,-252.83 465.01,-397.74 390,-504 388.12,-506.67 386.06,-509.34 383.9,-511.95"/>
+<polygon fill="blue" stroke="blue" stroke-width="2" points="381.3,-509.61 377.32,-519.42 386.55,-514.24 381.3,-509.61"/>
+<text xml:space="preserve" text-anchor="middle" x="475.16" y="-405.1" font-family="Arial" font-size="9.00">Parse PDFs</text>
+</g>
+<!-- uploads -->
+<g id="node17" class="node">
+<title>uploads</title>
+<path fill="#b2dfdb" stroke="black" d="M589.52,-60C589.52,-60 522.48,-60 522.48,-60 516.48,-60 510.48,-54 510.48,-48 510.48,-48 510.48,-28 510.48,-28 510.48,-22 516.48,-16 522.48,-16 522.48,-16 589.52,-16 589.52,-16 595.52,-16 601.52,-22 601.52,-28 601.52,-28 601.52,-48 601.52,-48 601.52,-54 595.52,-60 589.52,-60"/>
+<text xml:space="preserve" text-anchor="middle" x="556" y="-47" font-family="Arial" font-size="10.00">uploads/</text>
+<text xml:space="preserve" text-anchor="middle" x="556" y="-35" font-family="Arial" font-size="10.00">PDF Files</text>
+<text xml:space="preserve" text-anchor="middle" x="556" y="-23" font-family="Arial" font-size="10.00">Resume Storage</text>
+</g>
+<!-- main_py&#45;&gt;uploads -->
+<g id="edge22" class="edge">
+<title>main_py-&gt;uploads</title>
+<path fill="none" stroke="gray" d="M556,-154.09C556,-131.97 556,-97.09 556,-71.52"/>
+<polygon fill="gray" stroke="gray" points="559.5,-71.68 556,-61.68 552.5,-71.68 559.5,-71.68"/>
+<text xml:space="preserve" text-anchor="middle" x="566.76" y="-128.3" font-family="Arial" font-size="9.00">Store</text>
+</g>
+<!-- routes&#45;&gt;main_py -->
+<g id="edge6" class="edge">
+<title>routes-&gt;main_py</title>
+<path fill="none" stroke="orange" d="M560.22,-292.49C559.41,-270.37 558.13,-235.49 557.19,-209.92"/>
+<polygon fill="orange" stroke="orange" points="560.7,-209.94 556.83,-200.08 553.7,-210.2 560.7,-209.94"/>
+<text xml:space="preserve" text-anchor="middle" x="571.53" y="-266.7" font-family="Arial" font-size="9.00">Route</text>
+</g>
+<!-- preprocess -->
+<g id="node8" class="node">
+<title>preprocess</title>
+<path fill="#f3e5f5" stroke="black" d="M345.4,-475.2C345.4,-475.2 290.6,-475.2 290.6,-475.2 284.6,-475.2 278.6,-469.2 278.6,-463.2 278.6,-463.2 278.6,-443.2 278.6,-443.2 278.6,-437.2 284.6,-431.2 290.6,-431.2 290.6,-431.2 345.4,-431.2 345.4,-431.2 351.4,-431.2 357.4,-437.2 357.4,-443.2 357.4,-443.2 357.4,-463.2 357.4,-463.2 357.4,-469.2 351.4,-475.2 345.4,-475.2"/>
+<text xml:space="preserve" text-anchor="middle" x="318" y="-462.2" font-family="Arial" font-size="10.00">preprocess.py</text>
+<text xml:space="preserve" text-anchor="middle" x="318" y="-450.2" font-family="Arial" font-size="10.00">Text Cleaning</text>
+<text xml:space="preserve" text-anchor="middle" x="318" y="-438.2" font-family="Arial" font-size="10.00">Normalization</text>
+</g>
+<!-- parser&#45;&gt;preprocess -->
+<g id="edge8" class="edge">
+<title>parser-&gt;preprocess</title>
+<path fill="none" stroke="blue" stroke-width="2" d="M344.53,-521.5C340.49,-511.25 335.56,-498.75 331.06,-487.32"/>
+<polygon fill="blue" stroke="blue" stroke-width="2" points="334.43,-486.33 327.5,-478.31 327.92,-488.9 334.43,-486.33"/>
+<text xml:space="preserve" text-anchor="middle" x="361.6" y="-495.9" font-family="Arial" font-size="9.00">Extract Text</text>
+</g>
+<!-- nlp_process -->
+<g id="node9" class="node">
+<title>nlp_process</title>
+<path fill="#f3e5f5" stroke="black" d="M336.24,-336.8C336.24,-336.8 259.76,-336.8 259.76,-336.8 253.76,-336.8 247.76,-330.8 247.76,-324.8 247.76,-324.8 247.76,-304.8 247.76,-304.8 247.76,-298.8 253.76,-292.8 259.76,-292.8 259.76,-292.8 336.24,-292.8 336.24,-292.8 342.24,-292.8 348.24,-298.8 348.24,-304.8 348.24,-304.8 348.24,-324.8 348.24,-324.8 348.24,-330.8 342.24,-336.8 336.24,-336.8"/>
+<text xml:space="preserve" text-anchor="middle" x="298" y="-323.8" font-family="Arial" font-size="10.00">NLP Processing</text>
+<text xml:space="preserve" text-anchor="middle" x="298" y="-311.8" font-family="Arial" font-size="10.00">Tokenization</text>
+<text xml:space="preserve" text-anchor="middle" x="298" y="-299.8" font-family="Arial" font-size="10.00">Stopword Removal</text>
+</g>
+<!-- preprocess&#45;&gt;nlp_process -->
+<g id="edge9" class="edge">
+<title>preprocess-&gt;nlp_process</title>
+<path fill="none" stroke="blue" stroke-width="2" d="M314.88,-430.89C311.69,-409.17 306.7,-375.15 302.97,-349.72"/>
+<polygon fill="blue" stroke="blue" stroke-width="2" points="306.46,-349.34 301.54,-339.96 299.53,-350.36 306.46,-349.34"/>
+<text xml:space="preserve" text-anchor="middle" x="333.85" y="-405.1" font-family="Arial" font-size="9.00">Clean Text</text>
+</g>
+<!-- gpt_matcher -->
+<g id="node10" class="node">
+<title>gpt_matcher</title>
+<path fill="#e8f5e9" stroke="black" d="M217.58,-198.4C217.58,-198.4 144.42,-198.4 144.42,-198.4 138.42,-198.4 132.42,-192.4 132.42,-186.4 132.42,-186.4 132.42,-166.4 132.42,-166.4 132.42,-160.4 138.42,-154.4 144.42,-154.4 144.42,-154.4 217.58,-154.4 217.58,-154.4 223.58,-154.4 229.58,-160.4 229.58,-166.4 229.58,-166.4 229.58,-186.4 229.58,-186.4 229.58,-192.4 223.58,-198.4 217.58,-198.4"/>
+<text xml:space="preserve" text-anchor="middle" x="181" y="-185.4" font-family="Arial" font-size="10.00">gpt_matcher.py</text>
+<text xml:space="preserve" text-anchor="middle" x="181" y="-173.4" font-family="Arial" font-size="10.00">Groq AI Matching</text>
+<text xml:space="preserve" text-anchor="middle" x="181" y="-161.4" font-family="Arial" font-size="10.00">Advanced Scoring</text>
+</g>
+<!-- nlp_process&#45;&gt;gpt_matcher -->
+<g id="edge10" class="edge">
+<title>nlp_process-&gt;gpt_matcher</title>
+<path fill="none" stroke="darkgreen" stroke-width="2" d="M271.06,-292.5C264.7,-287 258.13,-280.9 252.47,-274.8 233.55,-254.39 215.04,-228.97 201.6,-209.22"/>
+<polygon fill="darkgreen" stroke="darkgreen" stroke-width="2" points="204.65,-207.49 196.18,-201.13 198.83,-211.38 204.65,-207.49"/>
+<text xml:space="preserve" text-anchor="middle" x="273.24" y="-266.7" font-family="Arial" font-size="9.00">Input Data</text>
+</g>
+<!-- cosine_matcher -->
+<g id="node11" class="node">
+<title>cosine_matcher</title>
+<path fill="#e8f5e9" stroke="black" d="M335.97,-198.4C335.97,-198.4 260.03,-198.4 260.03,-198.4 254.03,-198.4 248.03,-192.4 248.03,-186.4 248.03,-186.4 248.03,-166.4 248.03,-166.4 248.03,-160.4 254.03,-154.4 260.03,-154.4 260.03,-154.4 335.97,-154.4 335.97,-154.4 341.97,-154.4 347.97,-160.4 347.97,-166.4 347.97,-166.4 347.97,-186.4 347.97,-186.4 347.97,-192.4 341.97,-198.4 335.97,-198.4"/>
+<text xml:space="preserve" text-anchor="middle" x="298" y="-185.4" font-family="Arial" font-size="10.00">cosine_matcher.py</text>
+<text xml:space="preserve" text-anchor="middle" x="298" y="-173.4" font-family="Arial" font-size="10.00">TF-IDF Similarity</text>
+<text xml:space="preserve" text-anchor="middle" x="298" y="-161.4" font-family="Arial" font-size="10.00">Vector Analysis</text>
+</g>
+<!-- nlp_process&#45;&gt;cosine_matcher -->
+<g id="edge11" class="edge">
+<title>nlp_process-&gt;cosine_matcher</title>
+<path fill="none" stroke="darkgreen" stroke-width="2" d="M298,-292.49C298,-270.77 298,-236.75 298,-211.32"/>
+<polygon fill="darkgreen" stroke="darkgreen" stroke-width="2" points="301.5,-211.59 298,-201.59 294.5,-211.59 301.5,-211.59"/>
+<text xml:space="preserve" text-anchor="middle" x="318.76" y="-266.7" font-family="Arial" font-size="9.00">Input Data</text>
+</g>
+<!-- keyword_matcher -->
+<g id="node12" class="node">
+<title>keyword_matcher</title>
+<path fill="#e8f5e9" stroke="black" d="M448.46,-198.4C448.46,-198.4 377.54,-198.4 377.54,-198.4 371.54,-198.4 365.54,-192.4 365.54,-186.4 365.54,-186.4 365.54,-166.4 365.54,-166.4 365.54,-160.4 371.54,-154.4 377.54,-154.4 377.54,-154.4 448.46,-154.4 448.46,-154.4 454.46,-154.4 460.46,-160.4 460.46,-166.4 460.46,-166.4 460.46,-186.4 460.46,-186.4 460.46,-192.4 454.46,-198.4 448.46,-198.4"/>
+<text xml:space="preserve" text-anchor="middle" x="413" y="-185.4" font-family="Arial" font-size="10.00">key_matcher.py</text>
+<text xml:space="preserve" text-anchor="middle" x="413" y="-173.4" font-family="Arial" font-size="10.00">Keyword Analysis</text>
+<text xml:space="preserve" text-anchor="middle" x="413" y="-161.4" font-family="Arial" font-size="10.00">Pattern Matching</text>
+</g>
+<!-- nlp_process&#45;&gt;keyword_matcher -->
+<g id="edge12" class="edge">
+<title>nlp_process-&gt;keyword_matcher</title>
+<path fill="none" stroke="darkgreen" stroke-width="2" d="M325.31,-292.6C331.73,-287.1 338.34,-280.97 344,-274.8 362.5,-254.62 380.27,-229.34 393.15,-209.59"/>
+<polygon fill="darkgreen" stroke="darkgreen" stroke-width="2" points="396.06,-211.54 398.5,-201.23 390.16,-207.77 396.06,-211.54"/>
+<text xml:space="preserve" text-anchor="middle" x="373.3" y="-266.7" font-family="Arial" font-size="9.00">Input Data</text>
+</g>
+<!-- hybrid_matcher -->
+<g id="node13" class="node">
+<title>hybrid_matcher</title>
+<path fill="#e8f5e9" stroke="black" d="M102.14,-198.4C102.14,-198.4 27.86,-198.4 27.86,-198.4 21.86,-198.4 15.86,-192.4 15.86,-186.4 15.86,-186.4 15.86,-166.4 15.86,-166.4 15.86,-160.4 21.86,-154.4 27.86,-154.4 27.86,-154.4 102.14,-154.4 102.14,-154.4 108.14,-154.4 114.14,-160.4 114.14,-166.4 114.14,-166.4 114.14,-186.4 114.14,-186.4 114.14,-192.4 108.14,-198.4 102.14,-198.4"/>
+<text xml:space="preserve" text-anchor="middle" x="65" y="-185.4" font-family="Arial" font-size="10.00">hybrid_matcher.py</text>
+<text xml:space="preserve" text-anchor="middle" x="65" y="-173.4" font-family="Arial" font-size="10.00">Hybrid Scoring</text>
+<text xml:space="preserve" text-anchor="middle" x="65" y="-161.4" font-family="Arial" font-size="10.00">Weighted Average</text>
+</g>
+<!-- nlp_process&#45;&gt;hybrid_matcher -->
+<g id="edge13" class="edge">
+<title>nlp_process-&gt;hybrid_matcher</title>
+<path fill="none" stroke="darkgreen" stroke-width="2" d="M247.47,-305.65C210.31,-297.74 160.05,-282.85 123,-256 106.31,-243.91 92.4,-225.59 82.39,-209.68"/>
+<polygon fill="darkgreen" stroke="darkgreen" stroke-width="2" points="85.48,-208.03 77.35,-201.24 79.47,-211.62 85.48,-208.03"/>
+<text xml:space="preserve" text-anchor="middle" x="173.7" y="-266.7" font-family="Arial" font-size="9.00">Input Data</text>
+</g>
+<!-- groq_api -->
+<g id="node14" class="node">
+<title>groq_api</title>
+<path fill="#ffe0b2" stroke="black" d="M154.19,-60C154.19,-60 73.81,-60 73.81,-60 67.81,-60 61.81,-54 61.81,-48 61.81,-48 61.81,-28 61.81,-28 61.81,-22 67.81,-16 73.81,-16 73.81,-16 154.19,-16 154.19,-16 160.19,-16 166.19,-22 166.19,-28 166.19,-28 166.19,-48 166.19,-48 166.19,-54 160.19,-60 154.19,-60"/>
+<text xml:space="preserve" text-anchor="middle" x="114" y="-47" font-family="Arial" font-size="10.00">Groq API</text>
+<text xml:space="preserve" text-anchor="middle" x="114" y="-35" font-family="Arial" font-size="10.00">llama-3.1-8b-instant</text>
+<text xml:space="preserve" text-anchor="middle" x="114" y="-23" font-family="Arial" font-size="10.00">AI Inference</text>
+</g>
+<!-- gpt_matcher&#45;&gt;groq_api -->
+<g id="edge14" class="edge">
+<title>gpt_matcher-&gt;groq_api</title>
+<path fill="none" stroke="red" stroke-width="2" d="M170.53,-154.09C159.67,-131.97 142.53,-97.09 129.97,-71.52"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="133.28,-70.31 125.73,-62.88 127,-73.4 133.28,-70.31"/>
+<text xml:space="preserve" text-anchor="middle" x="177.46" y="-128.3" font-family="Arial" font-size="9.00">API Call</text>
+</g>
+<!-- gpt_matcher&#45;&gt;results -->
+<g id="edge18" class="edge">
+<title>gpt_matcher-&gt;results</title>
+<path fill="none" stroke="darkgreen" d="M202.68,-153.93C214.81,-143.36 230.81,-131.63 247.49,-125.6 280.24,-113.76 373.91,-135.13 404,-117.6 421.94,-107.15 434.46,-87.42 442.48,-70.34"/>
+<polygon fill="darkgreen" stroke="darkgreen" points="445.53,-72.11 446.3,-61.54 439.11,-69.32 445.53,-72.11"/>
+<text xml:space="preserve" text-anchor="middle" x="259.24" y="-128.3" font-family="Arial" font-size="9.00">Score</text>
+</g>
+<!-- sklearn -->
+<g id="node16" class="node">
+<title>sklearn</title>
+<path fill="#ffe0b2" stroke="black" d="M267.72,-60C267.72,-60 196.28,-60 196.28,-60 190.28,-60 184.28,-54 184.28,-48 184.28,-48 184.28,-28 184.28,-28 184.28,-22 190.28,-16 196.28,-16 196.28,-16 267.72,-16 267.72,-16 273.72,-16 279.72,-22 279.72,-28 279.72,-28 279.72,-48 279.72,-48 279.72,-54 273.72,-60 267.72,-60"/>
+<text xml:space="preserve" text-anchor="middle" x="232" y="-47" font-family="Arial" font-size="10.00">scikit-learn</text>
+<text xml:space="preserve" text-anchor="middle" x="232" y="-35" font-family="Arial" font-size="10.00">TF-IDF Vectorizer</text>
+<text xml:space="preserve" text-anchor="middle" x="232" y="-23" font-family="Arial" font-size="10.00">ML Algorithms</text>
+</g>
+<!-- cosine_matcher&#45;&gt;sklearn -->
+<g id="edge15" class="edge">
+<title>cosine_matcher-&gt;sklearn</title>
+<path fill="none" stroke="orange" d="M287.69,-154.09C276.84,-131.67 259.65,-96.14 247.23,-70.49"/>
+<polygon fill="orange" stroke="orange" points="250.41,-69 242.9,-61.53 244.1,-72.05 250.41,-69"/>
+<text xml:space="preserve" text-anchor="middle" x="286.5" y="-128.3" font-family="Arial" font-size="9.00">Use</text>
+</g>
+<!-- cosine_matcher&#45;&gt;results -->
+<g id="edge19" class="edge">
+<title>cosine_matcher-&gt;results</title>
+<path fill="none" stroke="darkgreen" d="M319.75,-154.04C331.27,-143.92 346.18,-132.54 361.49,-125.6 379,-117.66 388.08,-128.38 404,-117.6 420.81,-106.22 433.15,-87.11 441.37,-70.58"/>
+<polygon fill="darkgreen" stroke="darkgreen" points="444.52,-72.11 445.55,-61.57 438.17,-69.17 444.52,-72.11"/>
+<text xml:space="preserve" text-anchor="middle" x="373.24" y="-128.3" font-family="Arial" font-size="9.00">Score</text>
+</g>
+<!-- spacy -->
+<g id="node15" class="node">
+<title>spacy</title>
+<path fill="#ffe0b2" stroke="black" d="M380.47,-60C380.47,-60 309.53,-60 309.53,-60 303.53,-60 297.53,-54 297.53,-48 297.53,-48 297.53,-28 297.53,-28 297.53,-22 303.53,-16 309.53,-16 309.53,-16 380.47,-16 380.47,-16 386.47,-16 392.47,-22 392.47,-28 392.47,-28 392.47,-48 392.47,-48 392.47,-54 386.47,-60 380.47,-60"/>
+<text xml:space="preserve" text-anchor="middle" x="345" y="-47" font-family="Arial" font-size="10.00">spaCy</text>
+<text xml:space="preserve" text-anchor="middle" x="345" y="-35" font-family="Arial" font-size="10.00">en_core_web_sm</text>
+<text xml:space="preserve" text-anchor="middle" x="345" y="-23" font-family="Arial" font-size="10.00">NLP Library</text>
+</g>
+<!-- keyword_matcher&#45;&gt;spacy -->
+<g id="edge16" class="edge">
+<title>keyword_matcher-&gt;spacy</title>
+<path fill="none" stroke="orange" d="M402.38,-154.09C391.15,-131.57 373.33,-95.82 360.53,-70.14"/>
+<polygon fill="orange" stroke="orange" points="363.82,-68.91 356.23,-61.52 357.56,-72.03 363.82,-68.91"/>
+<text xml:space="preserve" text-anchor="middle" x="401.66" y="-128.3" font-family="Arial" font-size="9.00">NLP</text>
+</g>
+<!-- keyword_matcher&#45;&gt;results -->
+<g id="edge20" class="edge">
+<title>keyword_matcher-&gt;results</title>
+<path fill="none" stroke="darkgreen" d="M419.41,-154.09C426.09,-131.87 436.63,-96.77 444.33,-71.18"/>
+<polygon fill="darkgreen" stroke="darkgreen" points="447.68,-72.2 447.2,-61.61 440.97,-70.18 447.68,-72.2"/>
+<text xml:space="preserve" text-anchor="middle" x="439.19" y="-128.3" font-family="Arial" font-size="9.00">Score</text>
+</g>
+<!-- hybrid_matcher&#45;&gt;groq_api -->
+<g id="edge17" class="edge">
+<title>hybrid_matcher-&gt;groq_api</title>
+<path fill="none" stroke="purple" d="M65.39,-154.23C66,-145.26 67.3,-134.77 69.98,-125.6 75.62,-106.35 85.52,-86.29 94.51,-70.33"/>
+<polygon fill="purple" stroke="purple" points="97.47,-72.2 99.47,-61.8 91.42,-68.69 97.47,-72.2"/>
+<text xml:space="preserve" text-anchor="middle" x="87.99" y="-128.3" font-family="Arial" font-size="9.00">Combine</text>
+</g>
+<!-- hybrid_matcher&#45;&gt;results -->
+<g id="edge21" class="edge">
+<title>hybrid_matcher-&gt;results</title>
+<path fill="none" stroke="darkgreen" d="M85.58,-154.04C97.33,-143.37 112.97,-131.51 129.49,-125.6 158.22,-115.33 377.47,-132.67 404,-117.6 422.05,-107.34 434.57,-87.61 442.57,-70.49"/>
+<polygon fill="darkgreen" stroke="darkgreen" points="445.63,-72.23 446.37,-61.66 439.2,-69.46 445.63,-72.23"/>
+<text xml:space="preserve" text-anchor="middle" x="141.24" y="-128.3" font-family="Arial" font-size="9.00">Score</text>
+</g>
+<!-- results&#45;&gt;extract_html -->
+<g id="edge25" class="edge">
+<title>results-&gt;extract_html</title>
+<path fill="none" stroke="purple" stroke-width="2" d="M460.59,-60.25C467.51,-78.71 480.32,-104.49 501,-117.6 516.28,-127.29 564.36,-121.58 582,-125.6 757.26,-165.5 817.89,-156.58 962,-264 969.87,-269.86 976.82,-277.86 982.51,-285.72"/>
+<polygon fill="purple" stroke="purple" stroke-width="2" points="979.56,-287.61 988.01,-294 985.39,-283.74 979.56,-287.61"/>
+<text xml:space="preserve" text-anchor="middle" x="957.37" y="-173.7" font-family="Arial" font-size="9.00">Data</text>
+</g>
+<!-- env -->
+<g id="node19" class="node">
+<title>env</title>
+<path fill="#f5f5f5" stroke="black" d="M706.74,-336.8C706.74,-336.8 635.26,-336.8 635.26,-336.8 629.26,-336.8 623.26,-330.8 623.26,-324.8 623.26,-324.8 623.26,-304.8 623.26,-304.8 623.26,-298.8 629.26,-292.8 635.26,-292.8 635.26,-292.8 706.74,-292.8 706.74,-292.8 712.74,-292.8 718.74,-298.8 718.74,-304.8 718.74,-304.8 718.74,-324.8 718.74,-324.8 718.74,-330.8 712.74,-336.8 706.74,-336.8"/>
+<text xml:space="preserve" text-anchor="middle" x="671" y="-323.8" font-family="Arial" font-size="10.00">.env</text>
+<text xml:space="preserve" text-anchor="middle" x="671" y="-311.8" font-family="Arial" font-size="10.00">GROQ_API_KEY</text>
+<text xml:space="preserve" text-anchor="middle" x="671" y="-299.8" font-family="Arial" font-size="10.00">Environment Vars</text>
+</g>
+<!-- env&#45;&gt;main_py -->
+<g id="edge23" class="edge">
+<title>env-&gt;main_py</title>
+<path fill="none" stroke="darkred" stroke-dasharray="5,2" d="M653.03,-292.49C633.71,-269.57 602.83,-232.95 581.11,-207.18"/>
+<polygon fill="darkred" stroke="darkred" points="583.94,-205.11 574.82,-199.72 578.59,-209.62 583.94,-205.11"/>
+<text xml:space="preserve" text-anchor="middle" x="658.28" y="-266.7" font-family="Arial" font-size="9.00">Load Keys</text>
+</g>
+<!-- requirements -->
+<g id="node20" class="node">
+<title>requirements</title>
+<path fill="#f5f5f5" stroke="black" d="M812.85,-336.8C812.85,-336.8 749.15,-336.8 749.15,-336.8 743.15,-336.8 737.15,-330.8 737.15,-324.8 737.15,-324.8 737.15,-304.8 737.15,-304.8 737.15,-298.8 743.15,-292.8 749.15,-292.8 749.15,-292.8 812.85,-292.8 812.85,-292.8 818.85,-292.8 824.85,-298.8 824.85,-304.8 824.85,-304.8 824.85,-324.8 824.85,-324.8 824.85,-330.8 818.85,-336.8 812.85,-336.8"/>
+<text xml:space="preserve" text-anchor="middle" x="781" y="-323.8" font-family="Arial" font-size="10.00">requirements.txt</text>
+<text xml:space="preserve" text-anchor="middle" x="781" y="-311.8" font-family="Arial" font-size="10.00">Dependencies</text>
+<text xml:space="preserve" text-anchor="middle" x="781" y="-299.8" font-family="Arial" font-size="10.00">Libraries</text>
+</g>
+<!-- requirements&#45;&gt;main_py -->
+<g id="edge24" class="edge">
+<title>requirements-&gt;main_py</title>
+<path fill="none" stroke="darkred" stroke-dasharray="5,2" d="M745.84,-292.49C706.83,-268.83 643.75,-230.6 601.12,-204.75"/>
+<polygon fill="darkred" stroke="darkred" points="602.94,-201.76 592.57,-199.57 599.31,-207.75 602.94,-201.76"/>
+<text xml:space="preserve" text-anchor="middle" x="743.29" y="-266.7" font-family="Arial" font-size="9.00">Dependencies</text>
+</g>
+</g>
+</svg>

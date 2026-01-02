@@ -25,6 +25,12 @@ A FastAPI-based web application that automatically evaluates and scores resumes 
 
 ---
 
+## 🏗️ Architecture Diagram
+
+![Architecture Diagram](Architecturediagram.svg)
+
+---
+
 ## 🛠️ Tech Stack
 
 - **Backend**: FastAPI (Python)
