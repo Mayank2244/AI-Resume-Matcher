@@ -1,0 +1,16 @@
+{
+  "name": "resume-matcher-main",
+  "version": "1.0.0",
+  "description": "A FastAPI-based web application that automatically evaluates and scores resumes (PDFs) against a provided job description using multiple matching methods: GPT, cosine similarity, keyword matching, and a custom hybrid algorithm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
