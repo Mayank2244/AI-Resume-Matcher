@@ -1,0 +1,130 @@
+// AI Resume Matcher Architecture Diagram
+// Created with Swark
+
+digraph AI_Resume_Matcher {
+    rankdir=TB
+    bgcolor=white
+    node [shape=box, style=rounded, fontname="Arial", fontsize=10]
+    edge [fontname="Arial", fontsize=9]
+
+    // Frontend Layer
+    subgraph cluster_frontend {
+        label="🎨 Frontend Layer (Jinja2 Templates)"
+        style=rounded
+        color=lightblue
+        
+        index_html [label="index.html\nUpload Interface", fillcolor="#E3F2FD", style="rounded,filled"]
+        extract_html [label="extract.html\nResults Display", fillcolor="#E3F2FD", style="rounded,filled"]
+        download_html [label="download_form.html\nDownload Manager", fillcolor="#E3F2FD", style="rounded,filled"]
+    }
+
+    // User
+    user [label="👤 User\nBrowser", fillcolor="#FFCDD2", style="rounded,filled"]
+
+    // FastAPI Backend
+    subgraph cluster_api {
+        label="🔌 FastAPI Backend"
+        style=rounded
+        color=lightyellow
+        
+        main_py [label="main.py\nFastAPI App\nRoute Handlers", fillcolor="#FFF9C4", style="rounded,filled"]
+        routes [label="HTTP Routes\nGET / POST\nWebSocket", fillcolor="#FFF9C4", style="rounded,filled"]
+    }
+
+    // Data Processing Layer
+    subgraph cluster_processing {
+        label="⚙️ Data Processing Pipeline"
+        style=rounded
+        color=lightpink
+        
+        parser [label="resume_parser.py\nPDF Extraction\nText Mining", fillcolor="#F3E5F5", style="rounded,filled"]
+        preprocess [label="preprocess.py\nText Cleaning\nNormalization", fillcolor="#F3E5F5", style="rounded,filled"]
+        nlp_process [label="NLP Processing\nTokenization\nStopword Removal", fillcolor="#F3E5F5", style="rounded,filled"]
+    }
+
+    // Matching Engines
+    subgraph cluster_matchers {
+        label="🧠 Matching Engines & Algorithms"
+        style=rounded
+        color=lightgreen
+        
+        gpt_matcher [label="gpt_matcher.py\nGroq AI Matching\nAdvanced Scoring", fillcolor="#E8F5E9", style="rounded,filled"]
+        cosine_matcher [label="cosine_matcher.py\nTF-IDF Similarity\nVector Analysis", fillcolor="#E8F5E9", style="rounded,filled"]
+        keyword_matcher [label="key_matcher.py\nKeyword Analysis\nPattern Matching", fillcolor="#E8F5E9", style="rounded,filled"]
+        hybrid_matcher [label="hybrid_matcher.py\nHybrid Scoring\nWeighted Average", fillcolor="#E8F5E9", style="rounded,filled"]
+    }
+
+    // External Services
+    subgraph cluster_external {
+        label="☁️ External Services & Libraries"
+        style=rounded
+        color=lightsalmon
+        
+        groq_api [label="Groq API\nllama-3.1-8b-instant\nAI Inference", fillcolor="#FFE0B2", style="rounded,filled"]
+        spacy [label="spaCy\nen_core_web_sm\nNLP Library", fillcolor="#FFE0B2", style="rounded,filled"]
+        sklearn [label="scikit-learn\nTF-IDF Vectorizer\nML Algorithms", fillcolor="#FFE0B2", style="rounded,filled"]
+    }
+
+    // Storage Layer
+    subgraph cluster_storage {
+        label="💾 Storage & Data Layer"
+        style=rounded
+        color=lightcyan
+        
+        uploads [label="uploads/\nPDF Files\nResume Storage", fillcolor="#B2DFDB", style="rounded,filled"]
+        results [label="Results Data\nScores\nMatching Info", fillcolor="#B2DFDB", style="rounded,filled"]
+    }
+
+    // Configuration
+    subgraph cluster_config {
+        label="⚙️ Configuration"
+        style=rounded
+        color=lightgrey
+        
+        env [label=".env\nGROQ_API_KEY\nEnvironment Vars", fillcolor="#F5F5F5", style="rounded,filled"]
+        requirements [label="requirements.txt\nDependencies\nLibraries", fillcolor="#F5F5F5", style="rounded,filled"]
+    }
+
+    // Data Flow - User to Frontend
+    user -> index_html [label="Upload Resumes", color="red", fontcolor="red", penwidth=2]
+    user -> extract_html [label="View Results", color="green", fontcolor="green", penwidth=2]
+
+    // Frontend to Backend
+    index_html -> routes [label="Submit", color="blue"]
+    extract_html -> main_py [label="Display Results", color="blue"]
+    download_html -> results [label="Download", color="purple"]
+
+    // Backend to Processing
+    routes -> main_py [label="Route", color="orange"]
+    main_py -> parser [label="Parse PDFs", color="blue", penwidth=2]
+    parser -> preprocess [label="Extract Text", color="blue", penwidth=2]
+    preprocess -> nlp_process [label="Clean Text", color="blue", penwidth=2]
+
+    // Processing to Matchers
+    nlp_process -> gpt_matcher [label="Input Data", color="darkgreen", penwidth=2]
+    nlp_process -> cosine_matcher [label="Input Data", color="darkgreen", penwidth=2]
+    nlp_process -> keyword_matcher [label="Input Data", color="darkgreen", penwidth=2]
+    nlp_process -> hybrid_matcher [label="Input Data", color="darkgreen", penwidth=2]
+
+    // Matchers to External Services
+    gpt_matcher -> groq_api [label="API Call", color="red", penwidth=2]
+    cosine_matcher -> sklearn [label="Use", color="orange"]
+    keyword_matcher -> spacy [label="NLP", color="orange"]
+    hybrid_matcher -> groq_api [label="Combine", color="purple"]
+
+    // Results Storage
+    gpt_matcher -> results [label="Score", color="darkgreen"]
+    cosine_matcher -> results [label="Score", color="darkgreen"]
+    keyword_matcher -> results [label="Score", color="darkgreen"]
+    hybrid_matcher -> results [label="Score", color="darkgreen"]
+
+    // PDF Storage
+    main_py -> uploads [label="Store", color="gray"]
+
+    // Configuration Loading
+    env -> main_py [label="Load Keys", color="darkred", style=dashed]
+    requirements -> main_py [label="Dependencies", color="darkred", style=dashed]
+
+    // Results to Frontend
+    results -> extract_html [label="Data", color="purple", penwidth=2]
+}

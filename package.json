@@ -12,5 +12,13 @@
   "type": "commonjs",
   "dependencies": {
     "express": "^5.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayank2244/AI-Resume-Matcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mayank2244/AI-Resume-Matcher/issues"
+  },
+  "homepage": "https://github.com/Mayank2244/AI-Resume-Matcher#readme"
 }

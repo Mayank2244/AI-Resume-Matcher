@@ -1,0 +1,85 @@
+graph LR
+    subgraph Client
+        Browser["🌐 Browser"]
+    end
+
+    subgraph Frontend
+        Index["📄 index.html<br/>Upload & Setup"]
+        Extract["📊 extract.html<br/>Results View"]
+        Download["⬇️ download_form.html<br/>Download"]
+    end
+
+    subgraph Backend["FastAPI Core"]
+        Main["🔧 main.py<br/>Route Handler"]
+        Routes["🛣️ Routes<br/>REST API"]
+    end
+
+    subgraph Processing["📝 Data Pipeline"]
+        Parser["📕 Parser<br/>resume_parser.py"]
+        Clean["🧹 Preprocessor<br/>preprocess.py"]
+        Extract_NLP["🔤 NLP<br/>Extract & Tokenize"]
+    end
+
+    subgraph Matching["🧠 Algorithm Layer"]
+        GPT["🤖 GPT Matcher<br/>gpt_matcher.py"]
+        Cosine["📐 Cosine<br/>cosine_matcher.py"]
+        Keyword["🔑 Keyword<br/>key_matcher.py"]
+        Hybrid["⚙️ Hybrid<br/>hybrid_matcher.py"]
+    end
+
+    subgraph Libraries["📚 Libraries"]
+        Groq["☁️ Groq API<br/>llama-3.1-8b"]
+        SpaCy["📖 spaCy<br/>NLP Engine"]
+        SKlearn["📊 sklearn<br/>TF-IDF"]
+    end
+
+    subgraph Data["💾 Storage"]
+        Uploads["📁 uploads/<br/>PDF Files"]
+        Results["📈 Results<br/>Scores"]
+    end
+
+    subgraph Config["⚙️ Setup"]
+        Env[".env<br/>API Keys"]
+        Req["requirements.txt<br/>Dependencies"]
+    end
+
+    Browser -->|Upload| Index
+    Browser -->|View| Extract
+    Browser -->|Download| Download
+
+    Index -->|Submit| Routes
+    Routes -->|Process| Main
+
+    Main -->|Parse| Parser
+    Parser -->|Clean| Clean
+    Clean -->|Process| Extract_NLP
+
+    Extract_NLP -->|Input| GPT
+    Extract_NLP -->|Input| Cosine
+    Extract_NLP -->|Input| Keyword
+    Extract_NLP -->|Input| Hybrid
+
+    GPT -->|Call| Groq
+    Cosine -->|Use| SKlearn
+    Keyword -->|Use| SpaCy
+    Hybrid -->|Aggregate| Main
+
+    GPT -->|Output| Results
+    Cosine -->|Output| Results
+    Keyword -->|Output| Results
+    Hybrid -->|Output| Results
+
+    Main -->|Store| Uploads
+    Results -->|Display| Extract
+
+    Env -->|Configure| Main
+    Req -->|Install| Main
+
+    style Browser fill:#ffcdd2
+    style Frontend fill:#bbdefb
+    style Backend fill:#fff9c4
+    style Processing fill:#c8e6c9
+    style Matching fill:#f8bbd0
+    style Libraries fill:#ffe0b2
+    style Data fill:#b2dfdb
+    style Config fill:#f5f5f5
