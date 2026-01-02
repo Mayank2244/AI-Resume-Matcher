@@ -1,0 +1,81 @@
+graph TB
+    subgraph Client["CLIENT LAYER"]
+        Browser["🌐 Web Browser"]
+    end
+
+    subgraph UI["PRESENTATION LAYER<br/>Jinja2 Templates"]
+        UI1["index.html<br/>- File Upload Form<br/>- Job Description Input<br/>- Method Selection"]
+        UI2["extract.html<br/>- Results Display<br/>- Score Visualization<br/>- Download Option"]
+        UI3["download_form.html<br/>- Batch Download<br/>- ZIP Creation"]
+    end
+
+    subgraph Core["APPLICATION LAYER<br/>FastAPI"]
+        Main["main.py<br/>- Route Handlers<br/>- Request Processing<br/>- Response Formatting"]
+    end
+
+    subgraph DataProcessing["DATA PROCESSING LAYER"]
+        Parser["resume_parser.py<br/>- PDF Reading PyMuPDF<br/>- Text Extraction<br/>- DOCX Support"]
+        Preprocess["preprocess.py<br/>- Text Cleaning<br/>- Stopword Removal<br/>- Normalization"]
+    end
+
+    subgraph Matching["MATCHING LAYER<br/>Algorithms"]
+        M1["GPT Matcher<br/>gpt_matcher.py<br/>- Groq API Call<br/>- AI Scoring<br/>- JSON Parsing"]
+        M2["Cosine Matcher<br/>cosine_matcher.py<br/>- TF-IDF<br/>- Vector Similarity<br/>- sklearn"]
+        M3["Keyword Matcher<br/>key_matcher.py<br/>- Pattern Matching<br/>- Term Coverage<br/>- Frequency"]
+        M4["Hybrid Matcher<br/>hybrid_matcher.py<br/>- Weighted Sum<br/>- Experience Check<br/>- Combined Score"]
+    end
+
+    subgraph NLP["NLP & LIBRARIES"]
+        Spacy["spaCy<br/>en_core_web_sm<br/>- Tokenization<br/>- POS Tagging<br/>- NER"]
+        Sklearn["scikit-learn<br/>- TfidfVectorizer<br/>- Cosine Similarity<br/>- Text Processing"]
+        Requests["requests<br/>- HTTP Calls<br/>- API Integration"]
+    end
+
+    subgraph External["EXTERNAL SERVICES"]
+        GroqAPI["Groq API<br/>llama-3.1-8b-instant<br/>- AI Inference<br/>- Resume Scoring<br/>- Natural Language<br/>Understanding"]
+    end
+
+    subgraph Storage["STORAGE LAYER"]
+        Upload["uploads/"]
+        Session["Results Data"]
+    end
+
+    subgraph Config["CONFIGURATION"]
+        Env[".env<br/>GROQ_API_KEY"]
+        Req["requirements.txt"]
+    end
+
+    Browser -->|HTTP Request| UI1
+    UI1 -->|Submit Form| Main
+    Main -->|Extract Text| Parser
+    Parser -->|Clean Text| Preprocess
+    Preprocess -->|Processed Data| M1
+    Preprocess -->|Processed Data| M2
+    Preprocess -->|Processed Data| M3
+    Preprocess -->|Processed Data| M4
+    
+    M1 -->|Call| GroqAPI
+    M1 -->|Use| Requests
+    M2 -->|Use| Sklearn
+    M3 -->|Use| Spacy
+    M4 -->|Aggregate| Main
+    
+    Main -->|Store Files| Upload
+    Main -->|Cache Results| Session
+    Main -->|Return Response| UI2
+    UI2 -->|Display| Browser
+    UI2 -->|Download| UI3
+    UI3 -->|ZIP Files| Browser
+    
+    Env -->|Load| Main
+    Req -->|Install| Main
+
+    style Client fill:#ffcdd2
+    style UI fill:#bbdefb
+    style Core fill:#fff9c4
+    style DataProcessing fill:#c8e6c9
+    style Matching fill:#f8bbd0
+    style NLP fill:#d1c4e9
+    style External fill:#ffe0b2
+    style Storage fill:#b2dfdb
+    style Config fill:#f5f5f5
